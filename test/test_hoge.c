@@ -12,9 +12,8 @@ void tearDown(void)
 {
 }
 
-void test_hoge_NeedToImplement(void)
+void test_hoge_return_value_check(void)
 {
-    TEST_IGNORE_MESSAGE("Need to Implement hoge");
+    TEST_ASSERT_EQUAL(5, hoge(10));
 }
-
 #endif // TEST
