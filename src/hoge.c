@@ -4,5 +4,6 @@
 int hoge(int a)
 {
     printf("a = %d\n", a);
-    return 5;
+    //return 5;
+    return 4;
 }
